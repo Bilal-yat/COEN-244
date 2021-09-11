@@ -5,8 +5,7 @@
 //  Created by Bilal Yattou on 2020-02-21.
 //  Copyright © 2020 Bilal Yattou. All rights reserved.
 //
-// Name: Bilal Yattou  ID: 40110820
-// Partner: Matthieu Pourrat ID:40089209
+// Name: Bilal Yattou 
 // IDE: Xcode
 
 #include <stdio.h>
