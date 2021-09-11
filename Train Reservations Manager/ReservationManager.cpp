@@ -6,7 +6,7 @@
 //  Copyright © 2020 Bilal Yattou. All rights reserved.
 //
 
-//Name: Bilal Yattou ; ID: 40110820
+//Name: Bilal Yattou ; 
 //IDE: Xcode
 
 #include <stdio.h>
