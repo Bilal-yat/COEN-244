@@ -51,7 +51,7 @@ double inPatient::getPayment() const //algorith to calculate the number of days 
         }
     }
     else {
-        cout<<"Error: Negative Year, Please Enter a Valid Discharge date";
+        cout<<"Error: Negative Year! Please Enter a Valid Discharge date";
     }
     
     return totalCharge;
