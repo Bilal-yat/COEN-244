@@ -2,6 +2,7 @@
 #include "Inpatient.h"
 #include <string>
 #include <iostream>
+#include <cstdlib>
 using namespace std;
 
 inPatient::inPatient() : Person()
@@ -31,8 +32,8 @@ double inPatient::getPayment() const //algorith to calculate the number of days 
     
     
     years = (dischargeDate->getYear()) - (admissionDate->getYear());
-    months = (dischargeDate->getMonth()) - (admissionDate->getMonth());
-    days = (dischargeDate->getDay()) - (admissionDate->getDay());
+    months = abs((dischargeDate->getMonth()) - (admissionDate->getMonth()));
+    days = abs((dischargeDate->getDay()) - (admissionDate->getDay()));
     
     if (years == 0){
         if(months == 0){
